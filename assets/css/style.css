@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: url("../images/whirlpool.png");
+    margin: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 6rem;
+    height: 100%;
+    position: relative;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/*nav bar*/
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+    background-color: teal;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;   
+}
+
+a{
+	color: white;
+	font-family: 'arial',sans-serif;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+	display: inline-block;
+}
+/*change link color to black when hover*/
+a:hover {
+	background-color: #111;
+}
+
+/*fonts*/
+header {
+	
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 60px;
+	color: teal;
+	text-align: center;
+	clear: both;
+	padding:10px;
+	border: 2px black solid;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: teal;
+}
+
+p {
+	font-family: 'arial',sans-serif;
+}
+
+/*divs*/
+.main-container{
+	min-height: 100%;
+}
+.container{
+	margin:20px; 
+	padding: 20px;
+	position: relative;
+	top: 50px;
+}
+
+.main{
+	background-color: white;
+	padding:10px;
+	border: 2px black solid;
+	border-radius: 20px;
+	width: 70%;
+	height:50%;
+	float: left;
+}
+
+.connect{
+	background-color: white;
+	padding:10px;
+	margin-left: 10px;
+	border: 2px black solid;
+	border-radius: 20px;
+	width:29%;
+	height:50%;
+	float: left;
+}
+
+
+.banjo{
+	float: right;
+	border-radius: 20px;
+
+}
+
+.footer {
+	color: white;
+	font-family: arial, sans-serif;
+	background-color: teal;
+	border: black 2px;
+    border-style: solid;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+
+}
+
+
+/*portfolio page*/
+
+.folio{
+	background-color: white;
+	padding:10px;
+	border: 2px black solid;
+	border-radius: 20px;
+	width: 70%;
+	height:50%;
+	float: left;
+
+}
